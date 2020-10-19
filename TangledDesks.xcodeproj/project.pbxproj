@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839A21A4253D91C8009DD4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A3253D91C8009DD4DC /* AppDelegate.swift */; };
+		839A21A6253D91C8009DD4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A5253D91C8009DD4DC /* SceneDelegate.swift */; };
+		839A21A8253D91C8009DD4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A7253D91C8009DD4DC /* ViewController.swift */; };
+		839A21AB253D91C8009DD4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A21A9253D91C8009DD4DC /* Main.storyboard */; };
+		839A21AD253D91CC009DD4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A21AC253D91CC009DD4DC /* Assets.xcassets */; };
+		839A21B0253D91CC009DD4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839A21AE253D91CC009DD4DC /* LaunchScreen.storyboard */; };
+		839A21BB253D91CD009DD4DC /* TangledDesksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21BA253D91CD009DD4DC /* TangledDesksTests.swift */; };
+		839A21C6253D91CD009DD4DC /* TangledDesksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21C5253D91CD009DD4DC /* TangledDesksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839A21B7253D91CD009DD4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839A2198253D91C8009DD4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839A219F253D91C8009DD4DC;
+			remoteInfo = TangledDesks;
+		};
+		839A21C2253D91CD009DD4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839A2198253D91C8009DD4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839A219F253D91C8009DD4DC;
+			remoteInfo = TangledDesks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		839A21A0253D91C8009DD4DC /* TangledDesks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangledDesks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A21A3253D91C8009DD4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839A21A5253D91C8009DD4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		839A21A7253D91C8009DD4DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		839A21AA253D91C8009DD4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839A21AC253D91CC009DD4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839A21AF253D91CC009DD4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839A21B1253D91CC009DD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839A21B6253D91CD009DD4DC /* TangledDesksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangledDesksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A21BA253D91CD009DD4DC /* TangledDesksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledDesksTests.swift; sourceTree = "<group>"; };
+		839A21BC253D91CD009DD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839A21C1253D91CD009DD4DC /* TangledDesksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangledDesksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A21C5253D91CD009DD4DC /* TangledDesksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledDesksUITests.swift; sourceTree = "<group>"; };
+		839A21C7253D91CD009DD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839A219D253D91C8009DD4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21B3253D91CD009DD4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21BE253D91CD009DD4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839A2197253D91C8009DD4DC = {
+			isa = PBXGroup;
+			children = (
+				839A21A2253D91C8009DD4DC /* TangledDesks */,
+				839A21B9253D91CD009DD4DC /* TangledDesksTests */,
+				839A21C4253D91CD009DD4DC /* TangledDesksUITests */,
+				839A21A1253D91C8009DD4DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839A21A1253D91C8009DD4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839A21A0253D91C8009DD4DC /* TangledDesks.app */,
+				839A21B6253D91CD009DD4DC /* TangledDesksTests.xctest */,
+				839A21C1253D91CD009DD4DC /* TangledDesksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839A21A2253D91C8009DD4DC /* TangledDesks */ = {
+			isa = PBXGroup;
+			children = (
+				839A21A3253D91C8009DD4DC /* AppDelegate.swift */,
+				839A21A5253D91C8009DD4DC /* SceneDelegate.swift */,
+				839A21A7253D91C8009DD4DC /* ViewController.swift */,
+				839A21A9253D91C8009DD4DC /* Main.storyboard */,
+				839A21AC253D91CC009DD4DC /* Assets.xcassets */,
+				839A21AE253D91CC009DD4DC /* LaunchScreen.storyboard */,
+				839A21B1253D91CC009DD4DC /* Info.plist */,
+			);
+			path = TangledDesks;
+			sourceTree = "<group>";
+		};
+		839A21B9253D91CD009DD4DC /* TangledDesksTests */ = {
+			isa = PBXGroup;
+			children = (
+				839A21BA253D91CD009DD4DC /* TangledDesksTests.swift */,
+				839A21BC253D91CD009DD4DC /* Info.plist */,
+			);
+			path = TangledDesksTests;
+			sourceTree = "<group>";
+		};
+		839A21C4253D91CD009DD4DC /* TangledDesksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				839A21C5253D91CD009DD4DC /* TangledDesksUITests.swift */,
+				839A21C7253D91CD009DD4DC /* Info.plist */,
+			);
+			path = TangledDesksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839A219F253D91C8009DD4DC /* TangledDesks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A21CA253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesks" */;
+			buildPhases = (
+				839A219C253D91C8009DD4DC /* Sources */,
+				839A219D253D91C8009DD4DC /* Frameworks */,
+				839A219E253D91C8009DD4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TangledDesks;
+			productName = TangledDesks;
+			productReference = 839A21A0253D91C8009DD4DC /* TangledDesks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839A21B5253D91CD009DD4DC /* TangledDesksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A21CD253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesksTests" */;
+			buildPhases = (
+				839A21B2253D91CD009DD4DC /* Sources */,
+				839A21B3253D91CD009DD4DC /* Frameworks */,
+				839A21B4253D91CD009DD4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839A21B8253D91CD009DD4DC /* PBXTargetDependency */,
+			);
+			name = TangledDesksTests;
+			productName = TangledDesksTests;
+			productReference = 839A21B6253D91CD009DD4DC /* TangledDesksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839A21C0253D91CD009DD4DC /* TangledDesksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A21D0253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesksUITests" */;
+			buildPhases = (
+				839A21BD253D91CD009DD4DC /* Sources */,
+				839A21BE253D91CD009DD4DC /* Frameworks */,
+				839A21BF253D91CD009DD4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839A21C3253D91CD009DD4DC /* PBXTargetDependency */,
+			);
+			name = TangledDesksUITests;
+			productName = TangledDesksUITests;
+			productReference = 839A21C1253D91CD009DD4DC /* TangledDesksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839A2198253D91C8009DD4DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					839A219F253D91C8009DD4DC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					839A21B5253D91CD009DD4DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 839A219F253D91C8009DD4DC;
+					};
+					839A21C0253D91CD009DD4DC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 839A219F253D91C8009DD4DC;
+					};
+				};
+			};
+			buildConfigurationList = 839A219B253D91C8009DD4DC /* Build configuration list for PBXProject "TangledDesks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839A2197253D91C8009DD4DC;
+			productRefGroup = 839A21A1253D91C8009DD4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839A219F253D91C8009DD4DC /* TangledDesks */,
+				839A21B5253D91CD009DD4DC /* TangledDesksTests */,
+				839A21C0253D91CD009DD4DC /* TangledDesksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839A219E253D91C8009DD4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A21B0253D91CC009DD4DC /* LaunchScreen.storyboard in Resources */,
+				839A21AD253D91CC009DD4DC /* Assets.xcassets in Resources */,
+				839A21AB253D91C8009DD4DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21B4253D91CD009DD4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21BF253D91CD009DD4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839A219C253D91C8009DD4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A21A8253D91C8009DD4DC /* ViewController.swift in Sources */,
+				839A21A4253D91C8009DD4DC /* AppDelegate.swift in Sources */,
+				839A21A6253D91C8009DD4DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21B2253D91CD009DD4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A21BB253D91CD009DD4DC /* TangledDesksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A21BD253D91CD009DD4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A21C6253D91CD009DD4DC /* TangledDesksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839A21B8253D91CD009DD4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839A219F253D91C8009DD4DC /* TangledDesks */;
+			targetProxy = 839A21B7253D91CD009DD4DC /* PBXContainerItemProxy */;
+		};
+		839A21C3253D91CD009DD4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839A219F253D91C8009DD4DC /* TangledDesks */;
+			targetProxy = 839A21C2253D91CD009DD4DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839A21A9253D91C8009DD4DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839A21AA253D91C8009DD4DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839A21AE253D91CC009DD4DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839A21AF253D91CC009DD4DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839A21C8253D91CD009DD4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839A21C9253D91CD009DD4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839A21CB253D91CD009DD4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839A21CC253D91CD009DD4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		839A21CE253D91CD009DD4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TangledDesks.app/TangledDesks";
+			};
+			name = Debug;
+		};
+		839A21CF253D91CD009DD4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TangledDesks.app/TangledDesks";
+			};
+			name = Release;
+		};
+		839A21D1253D91CD009DD4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TangledDesks;
+			};
+			name = Debug;
+		};
+		839A21D2253D91CD009DD4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 282V5L9L43;
+				INFOPLIST_FILE = TangledDesksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anadyrskie.TangledDesksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TangledDesks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839A219B253D91C8009DD4DC /* Build configuration list for PBXProject "TangledDesks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A21C8253D91CD009DD4DC /* Debug */,
+				839A21C9253D91CD009DD4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A21CA253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A21CB253D91CD009DD4DC /* Debug */,
+				839A21CC253D91CD009DD4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A21CD253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A21CE253D91CD009DD4DC /* Debug */,
+				839A21CF253D91CD009DD4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A21D0253D91CD009DD4DC /* Build configuration list for PBXNativeTarget "TangledDesksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A21D1253D91CD009DD4DC /* Debug */,
+				839A21D2253D91CD009DD4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839A2198253D91C8009DD4DC /* Project object */;
+}
