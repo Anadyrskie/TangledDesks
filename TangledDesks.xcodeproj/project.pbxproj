@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835DFAA4253DD8FF00FDE5DC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835DFAA3253DD8FF00FDE5DC /* WebKit.framework */; };
 		839A21A4253D91C8009DD4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A3253D91C8009DD4DC /* AppDelegate.swift */; };
 		839A21A6253D91C8009DD4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A5253D91C8009DD4DC /* SceneDelegate.swift */; };
 		839A21A8253D91C8009DD4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A21A7253D91C8009DD4DC /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		835DFAA3253DD8FF00FDE5DC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		839A21A0253D91C8009DD4DC /* TangledDesks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangledDesks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A21A3253D91C8009DD4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839A21A5253D91C8009DD4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835DFAA4253DD8FF00FDE5DC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		835DFAA2253DD8FF00FDE5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835DFAA3253DD8FF00FDE5DC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		839A2197253D91C8009DD4DC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				839A21B9253D91CD009DD4DC /* TangledDesksTests */,
 				839A21C4253D91CD009DD4DC /* TangledDesksUITests */,
 				839A21A1253D91C8009DD4DC /* Products */,
+				835DFAA2253DD8FF00FDE5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
