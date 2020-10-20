@@ -31,7 +31,7 @@ function generateKey(){
 function generateToken(){
     global $KEY_LENGTH;
 
-        return strval(bin2hex(random_bytes(($KEY_LENGTH))));
+        return strval(bin2hex(random_bytes(($KEY_LENGTH*2))));
 
 }
 
@@ -58,7 +58,7 @@ function checkLogin($login_obj){
     if(strcmp(strval($login_obj->username), 'admin')== 0 && strcmp(strval($login_obj->token), 'bz0CqegTN5KjdNubxccBoTTauMnQA5ijUHWaMSfwdWUeeqBubetfeZba6UCmGSl6') == 0){
         $authObj = new auth;
         setKey($authObj);
-        $authObj['token'] = 'bz0CqegTN5KjdNubxccBoTTauMnQA5ijUHWaMSfwdWUeeqBubetfeZba6UCmGSl6';
+        $authObj->token = 'bz0CqegTN5KjdNubxccBoTTauMnQA5ijUHWaMSfwdWUeeqBubetfeZba6UCmGSl6';
         return $authObj;
     }
     elseif(strcmp(strval($login_obj->username), 'admin') == 0 && strcmp(strval($login_obj->password), 'admin') == 0) {
@@ -95,12 +95,20 @@ function checkLogin($login_obj){
 }
 
 
-
-$request_type = $_POST['submit'];
-if($request_type !== NULL){
-    $response = requestHandler($request_type);
-    echo json_encode($response);
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
+    if(isset($_POST['submit'])) {
+        $request_type = $_POST['submit'];
+        if ($request_type !== NULL) {
+            $response = requestHandler($request_type);
+            echo json_encode($response);
+        } else {
+            echo http_response_code(400);
+        }
+    }
+    else {
+        echo http_response_code(406);
+    }
 }
 else {
-    echo http_response_code(418);
+    echo http_response_code(404);
 }
