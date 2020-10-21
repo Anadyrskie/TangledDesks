@@ -42,17 +42,13 @@ function setKey($authObj){
 /* checkLogin($login_obj)
      * Input: Login Object
      *
-     *Logic:
+     * Output:
      *     Case 1: Username and Token
      *          sets auth key and returns same token
      *     Case 2: Username and password
      *          sets and returns token and auth key
-     *
-     * Output:
-     *     Case 1: Login success
-     *         returns $auth_obj with userid
-     *     Case 2: Login failure
-     *         returns 1
+     *     Case 3: Login failure
+     *         returns 401 code
  */
 function checkLogin($login_obj){
 
