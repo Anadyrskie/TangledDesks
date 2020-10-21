@@ -73,7 +73,7 @@ function checkLogin($login_obj){
 /* Handles "submit=" requests in the POST body
     * Instantiates and populates a login object and passes it to checkLogin
     * Instantiates an auth object and populates it with the login response
-    * If login was unsuccessful, returns "Forbidden"
+    * Returns an auth object
  */
     function requestHandler($request_type){
     if ($request_type == 'login'){
