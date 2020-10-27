@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830628D82547A8D8004B57C1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628D72547A8D8004B57C1 /* Login.swift */; };
+		830628E02547AB45004B57C1 /* HttpEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628DF2547AB45004B57C1 /* HttpEngine.swift */; };
+		830628E52547AC46004B57C1 /* UserUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628E42547AC46004B57C1 /* UserUpdateView.swift */; };
+		830628EA2547AC6E004B57C1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628E92547AC6E004B57C1 /* HomeView.swift */; };
+		830628EF2547ACE8004B57C1 /* TangledData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628EE2547ACE8004B57C1 /* TangledData.swift */; };
+		830628FB2547D204004B57C1 /* TDSecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628FA2547D204004B57C1 /* TDSecure.swift */; };
+		830629002547E482004B57C1 /* UpdateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830628FF2547E482004B57C1 /* UpdateStatus.swift */; };
 		83D62F4C25453E2300541976 /* TangledDesksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D62F4B25453E2300541976 /* TangledDesksApp.swift */; };
 		83D62F4E25453E2300541976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D62F4D25453E2300541976 /* ContentView.swift */; };
 		83D62F5025453E2500541976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D62F4F25453E2500541976 /* Assets.xcassets */; };
@@ -33,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830628D72547A8D8004B57C1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		830628DF2547AB45004B57C1 /* HttpEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpEngine.swift; sourceTree = "<group>"; };
+		830628E42547AC46004B57C1 /* UserUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUpdateView.swift; sourceTree = "<group>"; };
+		830628E92547AC6E004B57C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		830628EE2547ACE8004B57C1 /* TangledData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledData.swift; sourceTree = "<group>"; };
+		830628FA2547D204004B57C1 /* TDSecure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSecure.swift; sourceTree = "<group>"; };
+		830628FF2547E482004B57C1 /* UpdateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStatus.swift; sourceTree = "<group>"; };
 		83D62F4825453E2300541976 /* TangledDesks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangledDesks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D62F4B25453E2300541976 /* TangledDesksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangledDesksApp.swift; sourceTree = "<group>"; };
 		83D62F4D25453E2300541976 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830628D62547A8BF004B57C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				830628D72547A8D8004B57C1 /* Login.swift */,
+				830628E42547AC46004B57C1 /* UserUpdateView.swift */,
+				830628E92547AC6E004B57C1 /* HomeView.swift */,
+				830628FF2547E482004B57C1 /* UpdateStatus.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		830628F62547B4F7004B57C1 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				830628DF2547AB45004B57C1 /* HttpEngine.swift */,
+				830628FA2547D204004B57C1 /* TDSecure.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		83D62F3F25453E2300541976 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +129,11 @@
 		83D62F4A25453E2300541976 /* TangledDesks */ = {
 			isa = PBXGroup;
 			children = (
+				830628F62547B4F7004B57C1 /* Logic */,
+				830628D62547A8BF004B57C1 /* Views */,
 				83D62F4B25453E2300541976 /* TangledDesksApp.swift */,
 				83D62F4D25453E2300541976 /* ContentView.swift */,
+				830628EE2547ACE8004B57C1 /* TangledData.swift */,
 				83D62F4F25453E2500541976 /* Assets.xcassets */,
 				83D62F5425453E2500541976 /* Info.plist */,
 				83D62F5125453E2500541976 /* Preview Content */,
@@ -259,7 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830628FB2547D204004B57C1 /* TDSecure.swift in Sources */,
+				830628D82547A8D8004B57C1 /* Login.swift in Sources */,
+				830628E02547AB45004B57C1 /* HttpEngine.swift in Sources */,
 				83D62F4E25453E2300541976 /* ContentView.swift in Sources */,
+				830628EA2547AC6E004B57C1 /* HomeView.swift in Sources */,
+				830629002547E482004B57C1 /* UpdateStatus.swift in Sources */,
+				830628E52547AC46004B57C1 /* UserUpdateView.swift in Sources */,
+				830628EF2547ACE8004B57C1 /* TangledData.swift in Sources */,
 				83D62F4C25453E2300541976 /* TangledDesksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
