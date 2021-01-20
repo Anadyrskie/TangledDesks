@@ -1,25 +1,48 @@
 package us.anadyr.tangleddesks
 
-import android.R.string
+//Apache
+import RestApiService
 import android.os.Bundle
+import android.view.View
 import android.webkit.CookieManager
 import android.webkit.WebView
+import android.webkit.WebViewClient
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.CoreComponentFactory
-import android.webkit.WebSettings as WebkitWebSettings
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.view.*
+import kotlin.math.log
+import kotlin.system.exitProcess
+
+
+//import org.apache.http.HttpRequest
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val myWebView = WebView(baseContext)
-        CookieManager.getInstance().acceptCookie()
-        CookieManager.getInstance().setCookie("http://web-dev.tangleddesks.com", "userid=2")
-        CookieManager.getInstance().setCookie("http://web-dev.tangleddesks.com", "key=55cd5012e364b39879c0930a6dd3255b1602430390")
-        myWebView.getSettings().javaScriptEnabled = true
-        myWebView.loadUrl("http://web-dev.tangleddesks.com/main.html")
+        myWebView.settings.javaScriptEnabled = true
+        myWebView.webViewClient = WebViewClient()
+
+
+
+        myWebView.loadUrl("http://web-dev.tangleddesks.com/login.html")
 
 
         setContentView(myWebView)
+        //setContentView(R.layout.activity_main);
+
+
+
     }
+
+
+    override fun onStop() {
+        super.onStop()
+
+
+    }
+
+
 }
